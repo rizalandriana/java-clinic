@@ -37,8 +37,6 @@ public class Doctor extends AbstractEntity implements Copyable<Doctor>{
     private ObjectProperty<LocalDate> Dob;
     private StringProperty Name, BirthPlace, Gender, Nationality, Address, EmailAddress, Telp, NoKtp, NoNPAIDI, NoSIP, Specialism, FirstDegree, LastDegree;
 
-   
-
     public StringProperty NameProperty(){
         return Name;
     }
